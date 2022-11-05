@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import { sanityClient, urlFor } from '../sanity';
 import Link from "next/link"
+import { useEffect } from 'react';
 
 export default function Home({posts}) {
   useEffect(()=>{

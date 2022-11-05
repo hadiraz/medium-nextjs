@@ -6,7 +6,6 @@ import { useForm } from 'react-hook-form';
 function Post({ post }) {
     const [submit , setSubmit] = useState(false);
     const [error , setError] = useState(false);
-    console.log(post)
     const {register , handleSubmit , formState:{ errors }} = useForm() ;
     const onSubmit = async(data) => {
         await fetch("/api/createComment" , {
