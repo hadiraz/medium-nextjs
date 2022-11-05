@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 export default function Home({posts}) {
   useEffect(()=>{
-    alert("*please turn on your vpn and install Sanity CMS on your computer*")
+    alert("*please turn on your vpn*")
   },[])
   return (
     <div>
